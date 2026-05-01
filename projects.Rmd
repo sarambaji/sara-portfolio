@@ -8,9 +8,7 @@ title: ""
 
 ## AI Governance Document Classification
 
-This project built a machine learning pipeline to automatically classify AI governance documents into key domains such as bias, privacy, and safety.
-
-The goal was to reduce manual review time and create a scalable way to organize large volumes of policy and regulatory documents.
+In this project, I built a machine learning pipeline to automatically classify AI governance documents into key domains such as bias, privacy, and safety.The goal was to reduce manual review time and create a scalable way to organize large volumes of policy and regulatory documents.
 
 **Tools:** Python, Pandas, NLP, Sentence Transformers
 
@@ -22,9 +20,7 @@ The goal was to reduce manual review time and create a scalable way to organize 
 
 ## AMAL Initiative: SRH Service Utilization Analysis
 
-This project analyzed sexual and reproductive health service utilization among young mothers in Somalia before and after the AMAL Initiative.
-
-The goal was to evaluate whether service use changed over time and whether education shaped differences in access to care.
+In this project, I analyzed sexual and reproductive health (SRH) service utilization among young mothers in Somalia before and after the AMAL Initiative. The goal was to evaluate whether SRH service use changed over time and whether education shaped differences in access to care.
 
 **Tools:** R, Excel, logistic regression, data visualization
 

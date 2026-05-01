@@ -4,6 +4,6 @@ title: ""
 
 <div class="section-box">
 
-Hello! My name is Sara and I have over 4 years of work experience in health analytics. I have a masters degree in Data Science and Epidemiology from Emory University and am currently seeking employment. Please feel free to reach out to connect or discuss professional opportunities!
+Hello! My name is Sara Baji and I have over 4 years of work experience in health analytics. I have an MPH in Global Epidemiology and Data Science from Emory University and am currently seeking employment. Please feel free to reach out to connect or discuss professional opportunities!
 
 </div> 
