@@ -2,6 +2,8 @@
 title: ""
 ---
 
+# Projects
+
 <div class="project-card">
 
 ## AI Governance Document Classification
@@ -12,6 +14,20 @@ The goal was to reduce manual review time and create a scalable way to organize 
 
 **Tools:** Python, Pandas, NLP, Sentence Transformers
 
-<a class="button" href="https://github.com/sarambaji/ai-governance-classification">View Project</a>
+<a class="button" href="https://github.com/sarambaji/ai-governance-classification" target="_blank">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+## AMAL Initiative: SRH Service Utilization Analysis
+
+This project analyzed sexual and reproductive health service utilization among young mothers in Somalia before and after the AMAL Initiative.
+
+The goal was to evaluate whether service use changed over time and whether education shaped differences in access to care.
+
+**Tools:** R, Excel, logistic regression, data visualization
+
+<a class="button" href="https://github.com/sarambaji/amal-dashboard" target="_blank">View Project</a>
 
 </div>
