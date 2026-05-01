@@ -1,3 +1,6 @@
+name: "personal-website"
+output_dir: "docs"
+
 navbar:
   title: "Sara Baji"
   left:
@@ -18,8 +21,8 @@ navbar:
       href: https://github.com/sarambaji
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/sarabaji/
-      
-      output:
+
+output:
   html_document:
     theme: sandstone
     css: styles.css

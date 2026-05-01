@@ -1,0 +1,17 @@
+---
+title: ""
+---
+
+<div class="project-card">
+
+## AI Governance Document Classification
+
+This project built a machine learning pipeline to automatically classify AI governance documents into key domains such as bias, privacy, and safety.
+
+The goal was to reduce manual review time and create a scalable way to organize large volumes of policy and regulatory documents.
+
+**Tools:** Python, Pandas, NLP, Sentence Transformers
+
+<a class="button" href="https://github.com/sarambaji/ai-governance-classification">View Project</a>
+
+</div>

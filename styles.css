@@ -1,96 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #222;
-  background-color: white;
-  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  background-color: #fbfaf7;
+  color: #2f302b;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar {
-  background-color: #44483f !important;
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  background-color: #3f4739 !important;
   border: none;
-  border-radius: 0;
-  min-height: 70px;
-  font-size: 16px;
 }
 
 .navbar-brand {
-  font-size: 24px;
-  font-weight: 500;
-  color: white !important;
-  padding-top: 24px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 78px;
 }
 
 .navbar-nav > li > a {
-  color: #d8d8d8 !important;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-transform: uppercase;
-  font-weight: 600;
+  padding-top: 29px !important;
+  padding-bottom: 29px !important;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > .active > a {
-  background-color: #363930 !important;
-  color: white !important;
-}
-
-.container {
-  max-width: 1050px;
-  margin-top: 35px;
+.container-fluid.main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 45px;
 }
 
 .home-grid {
   display: grid;
-  grid-template-columns: 45% 55%;
-  gap: 45px;
-  align-items: start;
+  grid-template-columns: 330px 1fr;
+  gap: 50px;
+  align-items: center;
 }
 
 .home-photo img {
   width: 100%;
-  max-width: 430px;
-  border-radius: 2px;
+  border-radius: 22px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
 }
 
 .home-intro h1 {
-  font-size: 46px;
+  font-size: 56px;
   margin-top: 0;
-  color: #333333;
-}
-
-.home-intro p {
-  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .button {
   display: inline-block;
-  background-color: #44483f;
+  margin-top: 18px;
+  padding: 12px 20px;
+  background-color: #3f4739;
   color: white !important;
-  padding: 10px 18px;
-  border-radius: 4px;
   text-decoration: none;
-  margin-top: 10px;
+  border-radius: 999px;
+  font-weight: 700;
 }
 
 .button:hover {
-  background-color: #2f332b;
+  background-color: #2f352b;
   text-decoration: none;
 }
 
-h1, h2 {
-  color: #333333;
+.section-box, .project-card {
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
 }
 
-@media screen and (max-width: 768px) {
+iframe, embed {
+  border: 2px solid #3f4739;
+  border-radius: 10px;
+  background: white;
+}
+
+@media (max-width: 768px) {
   .home-grid {
     grid-template-columns: 1fr;
   }
 
   .home-intro h1 {
-    font-size: 36px;
+    font-size: 42px;
   }
 
-  .home-intro p {
-    font-size: 18px;
+  .navbar-brand {
+    font-size: 25px;
   }
 }
