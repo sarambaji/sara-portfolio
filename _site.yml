@@ -1,17 +1,31 @@
-name: "sara-website"
-output_dir: "docs"
-
 navbar:
   title: "Sara Baji"
+
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
+
     - text: "About"
+      icon: fa-user
       href: about.html
+
     - text: "Resume"
+      icon: fa-file
       href: resume.html
+
+    - text: "Projects"
+      icon: fa-laptop-code
+      href: projects.html
+
+  right:
+    - icon: fa-github
+      href: https://github.com/sarambaji
+
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/sarabaji/
       
-output:
+      output:
   html_document:
     theme: flatly
-    css: styles.css      
+    css: styles.css

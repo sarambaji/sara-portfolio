@@ -1,9 +1,24 @@
 ---
-title: "Home"
+title: ""
 ---
+
+<div class="section-box">
 
 # Hi, I’m Sara
 
 I’m an MPH student in Global Epidemiology and Data Science at Emory University.
 
-Welcome to my personal website!
+I’m interested in using data, digital health tools, and epidemiologic methods to improve healthcare systems and outcomes.
+
+</div>
+
+<div class="section-box">
+
+## What I Do
+
+- Data analysis (R, Python, SQL)
+- Epidemiologic research
+- Digital health and health tech
+- Healthcare analytics
+
+</div>
