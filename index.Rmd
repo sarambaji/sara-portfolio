@@ -2,23 +2,24 @@
 title: ""
 ---
 
-<div class="section-box">
+<div class="home-grid">
 
-# Hi, I’m Sara
+<div class="home-photo">
+<img src="images/profile.jpg" alt="Professional headshot of Sara Baji">
+</div>
+
+<div class="home-intro">
+
+# Sara Baji
 
 I’m an MPH student in Global Epidemiology and Data Science at Emory University.
 
-I’m interested in using data, digital health tools, and epidemiologic methods to improve healthcare systems and outcomes.
+My work focuses on using data, epidemiologic methods, and digital health tools to better understand health outcomes and improve healthcare systems.
+
+I have experience in health analytics, infectious disease surveillance, program evaluation, and data visualization.
+
+<a class="button" href="projects.html">View My Projects</a>
 
 </div>
-
-<div class="section-box">
-
-## What I Do
-
-- Data analysis (R, Python, SQL)
-- Epidemiologic research
-- Digital health and health tech
-- Healthcare analytics
 
 </div>
