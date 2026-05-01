@@ -1,0 +1,9 @@
+---
+title: "Home"
+---
+
+# Hi, I’m Sara
+
+I’m an MPH student in Global Epidemiology and Data Science at Emory University.
+
+Welcome to my personal website!

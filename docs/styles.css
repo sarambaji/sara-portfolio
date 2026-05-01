@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #241E4E;
+}
+
+h2 {
+  color: #EB7100;
+}
+
+.project-card {
+  background-color: #f8f8f8;
+  border-left: 5px solid #EB7100;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.button {
+  display: inline-block;
+  background-color: #241E4E;
+  color: white !important;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
