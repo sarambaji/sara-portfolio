@@ -1,7 +1,5 @@
 ---
-title: "Resume"
+title: ""
 ---
 
-You can view my resume below:
-
-<iframe src="files/Baji_Sara_Resume.pdf" width="100%" height="800px"></iframe>
+<iframe src="files/Baji_Sara_Resume.pdf" width="100%" height="800px"></iframe> 

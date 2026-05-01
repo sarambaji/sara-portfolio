@@ -2,7 +2,7 @@
 title: ""
 ---
 
-<div class="home-grid">
+<div class="home-grid"> 
 
 <div class="home-photo">
 <img src="images/profile.jpg" alt="Professional headshot of Sara Baji">
