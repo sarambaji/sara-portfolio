@@ -1,31 +1,96 @@
 body {
-  font-family: Arial, sans-serif;
-  color: #222222;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  background-color: white;
   line-height: 1.6;
 }
 
-h1 {
-  color: #241E4E;
+.navbar {
+  background-color: #44483f !important;
+  border: none;
+  border-radius: 0;
+  min-height: 70px;
+  font-size: 16px;
 }
 
-h2 {
-  color: #EB7100;
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+  color: white !important;
+  padding-top: 24px;
 }
 
-.project-card {
-  background-color: #f8f8f8;
-  border-left: 5px solid #EB7100;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 25px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+.navbar-nav > li > a {
+  color: #d8d8d8 !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a {
+  background-color: #363930 !important;
+  color: white !important;
+}
+
+.container {
+  max-width: 1050px;
+  margin-top: 35px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 45px;
+  align-items: start;
+}
+
+.home-photo img {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 2px;
+}
+
+.home-intro h1 {
+  font-size: 46px;
+  margin-top: 0;
+  color: #333333;
+}
+
+.home-intro p {
+  font-size: 20px;
 }
 
 .button {
   display: inline-block;
-  background-color: #241E4E;
+  background-color: #44483f;
   color: white !important;
   padding: 10px 18px;
-  border-radius: 8px;
+  border-radius: 4px;
   text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #2f332b;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+@media screen and (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-intro h1 {
+    font-size: 36px;
+  }
+
+  .home-intro p {
+    font-size: 18px;
+  }
 }
